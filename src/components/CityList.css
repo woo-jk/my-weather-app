@@ -1,0 +1,17 @@
+.cityList {
+    font-family: fantasy;
+}
+.cityul {
+    list-style: none;
+}
+.cityli {
+    padding: 5px 0px 5px 5px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #efefef;
+    font-size: 12px;
+
+    transition: background-color 0.3s linear;
+}
+.cityli:hover {
+    background-color: #f6f6f6;
+}

@@ -1,14 +1,16 @@
+import "./CityList.css";
+
 function CityList(props) {
   // const cities = props.cities;
   const { cities } = props;
 
   return (
-    <div>
+    <div className="cityList">
       <h1>CityList</h1>
 
-      <ul>
+      <ul className="cityul">
         {cities.map((item, index) => {
-          return <li key={index}>{item}</li>;
+          return <li className="cityli" key={index}>{item}</li>;
         })}
       </ul>
     </div>
